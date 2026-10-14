@@ -1,0 +1,3 @@
+# Als Admin in PowerShell:
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\Build-OracleDB-EXE.ps1

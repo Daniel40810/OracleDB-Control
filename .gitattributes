@@ -1,0 +1,23 @@
+# ============================================================
+# .gitattributes - StartUp (Oracle 21c DB Control Center)
+# ============================================================
+
+# Standard: Textdateien im Repository als LF speichern,
+# beim Checkout unter Windows als CRLF ausgeben.
+* text=auto eol=crlf
+
+# PowerShell / Batch / Textdateien: immer CRLF
+# (Windows PowerShell 5.1 kommt mit LF-only-Dateien nicht zuverlaessig klar)
+*.ps1   text eol=crlf
+*.psm1  text eol=crlf
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.txt   text eol=crlf
+
+# Binaerdateien: nicht veraendern, nicht diffen, nicht mergen
+*.ico   binary
+*.exe   binary
+*.dll   binary
+*.png   binary
+*.jpg   binary
+*.zip   binary

@@ -1,0 +1,9 @@
+# ============================================================
+# .gitignore - StartUp (Oracle 21c DB Control Center)
+# ============================================================
+
+# Lokale Claude-Einstellungen (enthalten Berechtigungen des Rechners)
+.claude/
+
+# Build-Artefakte: entstehen aus Build-OracleDB-EXE.ps1
+*.exe
